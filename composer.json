@@ -1,0 +1,35 @@
+{
+  "name": "settermjd/PluralSight-ZendDb-Course",
+  "description": "A package to support the PluralSight Zend\\Db Course",
+  "version": "0.1.0",
+  "type": "library",
+  "keywords": ["zend framework", "zend-db", "plural sight", "sql", "databases"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Setter",
+      "email": "matthew@matthewsetter.com",
+      "homepage": "http://matthewsetter.com",
+      "role": "developer"
+    }
+  ],
+  "support": {
+    "email": "matthew@matthewsetter.com"
+  },
+  "require": {
+    "zendframework/zend-config": "^2.5",
+    "zendframework/zend-stdlib": "^2.5",
+    "zendframework/zend-db": "^2.5",
+    "zendframework/zend-filter": "^2.5",
+    "zendframework/zend-inputfilter": "^2.5",
+    "zendframework/zend-validator": "^2.5",
+    "zendframework/zend-eventmanager": "^2.5",
+    "symfony/console": "^2.7",
+    "jdorn/sql-formatter": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PluralSight\\": "src/PluralSight/"
+    }
+  }
+}
